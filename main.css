@@ -1,0 +1,137 @@
+@media (min-width: 1300px) {
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    background-image: url("images/bg-pattern-top-desktop.svg");
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    padding: 6rem 10rem ; /*top: 10rem left: 8rem */
+  }
+
+  #container {
+      display: inline-block;
+  }
+
+  #container h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 300%;
+    font-weight: 700;
+    line-height: 2.9rem;
+  }
+
+  .container__1, .container__2{
+      
+  }
+
+  .container__2{
+    line-height: 1.4rem;
+  }
+
+  #ratings {
+    display: inline-block;
+    float: right;
+    margin-right: 150px;
+    padding-top: 40px;
+    
+  }
+
+.ratings__reviews, .report__guru, .best__tech {
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid hsl(300, 24%, 96%);
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 8px;
+    width: 434px;
+    height: 40px;
+}
+
+#ratings img {
+    padding: .1rem;
+}
+
+ .report__guru {
+     position: relative;
+     left: 2.7rem;
+}
+
+.best__tech {
+    position: relative;
+    left: 5.4rem;
+}
+
+.cards {
+    margin-top: 41px;
+}
+
+.card__1 {
+    margin-left: 0;
+}
+
+.card__1, .card__2, .card__3{
+    display: inline-block;
+    border: 1px solid  hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 1rem;
+    position: relative;
+    padding: 30px;
+    width: 273px;
+    height: 147px;
+    font-size: small;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    line-height: 1 rem;;
+}
+
+.credentials {  
+    position: relative;
+}
+
+.credentials img{
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 50px;
+    display: inline-block;
+}
+
+.words {
+    padding-top: 35px;
+}
+
+.card__2 {
+    top: 20px;
+    position: relative;
+}
+
+.card__3 {
+    position: relative;
+    top: 50px;
+}
+
+.name {
+    margin-top: 5px;
+    font-weight: 500;
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+    line-height: .5rem;
+}
+
+.name p {
+    color: hsl(333, 80%, 67%);
+}
+
+
